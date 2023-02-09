@@ -2,7 +2,7 @@ import random;
 
 #egyetlen egy bittet cserelunk fel,veletlenszeruen
 def mutacio(arr,p_mut):
-    n=arr[0].size
+    n=arr[0].getSize()
     for e in arr:
         if(random.uniform(0,1) <= p_mut):
             flip_bit_index=random.randint(0,n-1)
@@ -15,7 +15,7 @@ def mutacio(arr,p_mut):
 
 #sorbamegyunk bittenkent es ha teljesul a p_mut, akkor felcsereljuk. Igy tobb bit is mutalodhat
 def mutacio2(arr,p_mut):
-    n=arr[0].size
+    n=arr[0].getSize()
     for e in arr:
         for j in range(0,n):
             if(random.uniform(0,1) <= p_mut):

@@ -1,0 +1,4 @@
+nr of objects: 100
+Knapsack capacity: 2500
+the best results in the 10 iteration : 
+3607 3642 3657 3700 3556 3496 3583 3597 3585 3534 

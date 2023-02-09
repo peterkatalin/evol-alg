@@ -32,3 +32,9 @@ def szelekcio_random(arr,n_pop):
         fractions_of_total.append(1/n_pop)
     
     return fractions_of_total
+
+
+
+
+
+    

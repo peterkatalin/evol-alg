@@ -1,0 +1,4 @@
+nr of objects: 1000
+Knapsack capacity: 25000
+the best results in the 10 iteration : 
+28451 28842 28830 28639 28728 28943 29050 28660 28660 28458 
